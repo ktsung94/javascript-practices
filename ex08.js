@@ -12,8 +12,10 @@ var i = 10;
 var n = new Number(10);
 
 f();
+window.f();
 
 console.log(o);
+console.log(window.o);
 
 console.log("===========객체 확장==========");
 
